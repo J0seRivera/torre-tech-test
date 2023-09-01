@@ -3,9 +3,8 @@ import { UserModal } from '../Modal/Modal'
 import "./SearchBar.css"
 import searchIcon from "../../assets/icons/search.png"
 
-
 const SearchBar = () => {
-
+  const backendUrl = "https://torre-backend-434ec2cc0bd8.herokuapp.com"
   const [isVisible, setIsVisible] = useState(false);
   const [userData, setUserData] = useState(null);
   const [recentResults, setRecentResults] = useState([]);
@@ -22,7 +21,7 @@ const SearchBar = () => {
 
   const searchUser = async (username) => {
     try {
-      const response = await fetch(`http://localhost:5000/search?username=${username}`);
+      const response = await fetch(`${backendUrl}/search?username=${username}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
