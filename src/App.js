@@ -1,14 +1,13 @@
-
+import React from 'react';
+import { NavBar } from './components/NavBar/NavBar';
+import { SearchBar } from './components/SearchBar/SearchBar';
 import './App.css';
-
+import './index.css'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edita el archivo <code>src/App.js</code> y guarda para recargar.
-        </p>
-      </header>
+      <NavBar />
+      <SearchBar />
     </div>
   );
 }
