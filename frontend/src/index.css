@@ -1,0 +1,33 @@
+:root {
+  --background: #010101;
+  --main-color: #cddc39;
+  --light: #ededee;
+  --dark: #a6a6a6;
+  --dark2: #27292d;
+
+  --md: 2.4rem;
+  --sm: 1.4rem;
+}
+
+html {
+  /* medida para que 1 rem equivalga 10px */
+  font-size: 62.5%; 
+}
+
+body {
+  margin: 0;
+  font-family: "Muli","Helvetica","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--background);
+}
+
+p {
+  color: var(--light);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

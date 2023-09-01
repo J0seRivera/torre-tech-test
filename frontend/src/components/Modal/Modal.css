@@ -1,0 +1,39 @@
+.modal {
+  width: 720px;
+  height: auto;
+  background-color: var(--dark2);
+  border-radius: 8px;
+  
+  box-shadow: 2px 3px 15px 1px var(--main-color);
+}
+
+.searchUser {
+  font-size: var(--md);
+  font-weight: 600;
+}
+
+.modal a {
+  text-decoration: none;
+}
+
+.modal a:hover {
+  text-decoration: underline var(--light);
+}
+
+.close-searchButton {
+  width: 25rem;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: var(--dark);
+  outline: none;
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: var(--sm);
+  border: none;
+  margin: 8px;
+}
+
+.close-searchButton:hover {
+  background-color: var(--light);
+  cursor: pointer;
+}

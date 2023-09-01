@@ -1,0 +1,37 @@
+{
+  "name": "Torre_tech_test",
+  "version": "1.0.0",
+  "description": "Torre, Engineering - technical test",
+  "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "author": "Jose Rivera <joseriveradl@gmail.com>",
+  "license": "MIT"
+}
