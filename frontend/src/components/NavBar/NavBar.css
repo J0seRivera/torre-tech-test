@@ -9,7 +9,8 @@ nav {
 
 nav .logo {
   width: 65px;
-  margin: 23px auto;
+  margin: 18px auto;
+  font-size: var(--md);
 }
 
 nav ul {
