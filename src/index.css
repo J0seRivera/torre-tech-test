@@ -1,11 +1,18 @@
 :root {
   --background: #010101;
   --main-color: #cddc39;
-  --second-color: #ededee;
+  --light: #ededee;
   --dark: #a6a6a6;
   --dark2: #27292d;
+
+  --md: 2.4rem;
+  --sm: 1.4rem;
 }
 
+html {
+  /* medida para que 1 rem equivalga 10px */
+  font-size: 62.5%; 
+}
 
 body {
   margin: 0;
@@ -17,7 +24,7 @@ body {
 }
 
 p {
-  color: var(--second-color);
+  color: var(--light);
 }
 
 code {
