@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Torre, Engineering - technical test",
   "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18",
     "react-dom": "^18",
     "react-scripts": "5.0.1",
